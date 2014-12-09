@@ -11,7 +11,7 @@ use Moo;
 use namespace::clean;
 
 # Version.
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Get XML.
 has xml => (
@@ -147,6 +147,7 @@ L<Map::Tube>,
 L<Map::Tube::Barcelona>,
 L<Map::Tube::Berlin>,
 L<Map::Tube::Delhi>,
+L<Map::Tube::Kiew>,
 L<Map::Tube::London>,
 L<Map::Tube::Moscow>,
 L<Map::Tube::NYC>,
@@ -157,7 +158,7 @@ L<Map::Tube::Warsaw>.
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/Map-Tube-Minsk>
+L<https://github.com/tupinek/Map-Tube-Minsk>
 
 =head1 AUTHOR
 
@@ -173,6 +174,6 @@ L<http://skim.cz>
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
